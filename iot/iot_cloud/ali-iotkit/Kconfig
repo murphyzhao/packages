@@ -3,7 +3,6 @@
 menuconfig PKG_USING_ALI_IOTKIT
     bool "Ali-iotkit: Aliyun cloud sdk 'iotkit-embedded' for RT-Thread"
     select RT_USING_SAL
-    select SAL_USING_POSIX
     default n
 
 if PKG_USING_ALI_IOTKIT
